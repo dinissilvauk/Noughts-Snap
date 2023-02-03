@@ -1,0 +1,118 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--sixth);
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+ 
+  .winner {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: .5rem;
+    background-color: red;
+    color: white;
+    border-radius: .3rem;
+    font-size: 12px;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .scores {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .score {
+    color: white;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+  }
+
+  .status {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .board-row {
+    display: flex;
+    gap: .2rem;
+    margin-bottom: .2rem;
+  }
+  
+  .square {
+    border: 2px solid red;
+    background: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+    border-radius: .3rem;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  .game-board {
+    background-color: rgb(16, 24, 50);
+    padding: 1rem;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  .reset {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .reset-button {
+    background-color: red;
+    font-size: 12px;
+    border-radius: .3rem;
+    color: white;
+    height: 40px;
+    width: 100px;
+  }
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    margin: 16px 0;
+  }
+  
